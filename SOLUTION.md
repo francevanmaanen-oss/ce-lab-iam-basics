@@ -1,7 +1,7 @@
 # IAM Basics Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** France van Maanen 
+**Date Completed:** 21 April
 
 ---
 
