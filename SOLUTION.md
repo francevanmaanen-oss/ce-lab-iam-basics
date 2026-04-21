@@ -192,7 +192,7 @@ $ aws s3 ls --profile alice
 
 **Your Answer:**
 
-[Explain benefits: easier management, consistency, scalability, etc.]
+[By using groups, set up could be efficient and user role is clear as users will are isolated.]
 
 ---
 
@@ -200,7 +200,7 @@ $ aws s3 ls --profile alice
 
 **Your Answer:**
 
-[Discuss: security risks, accidental changes, compliance issues, etc.]
+Mainly security risks and unnecessary actions that might cause disruption to the workflow. 
 
 ---
 
@@ -208,7 +208,7 @@ $ aws s3 ls --profile alice
 
 **Your Answer:**
 
-[Propose structure: project-based groups, role-based access, tagging strategy, etc.]
+I would organize it depending on roles of users within the project. I would give them roles-based access depending on what their tasks involving different groups and tools. 
 
 ---
 
@@ -216,7 +216,7 @@ $ aws s3 ls --profile alice
 
 **Your Answer:**
 
-[Explain: user deletion is permanent, permissions can be recreated but history lost, etc.]
+yes it is permanent. The best solution is to reconstruct users permissions and access audit logs on cloudtrail to rebuild manually. 
 
 ---
 
@@ -224,19 +224,19 @@ $ aws s3 ls --profile alice
 
 **What was most challenging about this lab?**
 
-[Your reflection]
+This lab in my opinion was the easiest so far. The only thing that I might had a challenge with is differentiating the definition of "roles" and permission policies. 
 
 ---
 
 **What IAM best practice will you always follow?**
 
-[Your reflection]
+Giving the most minimal access to each user. Only the necessities, anything else is a role. 
 
 ---
 
 **How does IAM help implement the principle of least privilege?**
 
-[Your reflection]
+It gives precision and flexibility needed to conitnously tighten access down. 
 
 ---
 
