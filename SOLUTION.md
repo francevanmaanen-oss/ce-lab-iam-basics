@@ -174,7 +174,7 @@
 
 ### Challenge 3: CLI Access Keys
 
-**Alice Access Key Created:** [Yes / No]
+**Alice Access Key Created:** Yes
 
 **CLI Test Output:**
 ```bash
@@ -182,7 +182,7 @@ $ aws s3 ls --profile alice
 [Paste output here]
 ```
 
-**Screenshot:** [If applicable]
+**Screenshot:** (screenshots/terminal-output.png)
 
 ---
 
